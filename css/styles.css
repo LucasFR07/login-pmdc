@@ -1,0 +1,125 @@
+html {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: url(/img/fundo.png) no-repeat;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Heavitas Neue', sans-serif;
+}
+
+.container {
+  width: 30rem;
+  height: 23.5rem;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, .70);
+  backdrop-filter: blur(20px);
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.login-form {
+  padding: 42px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+.logo-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container img {
+  width: 180px;
+  height: auto;
+}
+
+h2 {
+  color: #3C3C3B;
+  text-align: center;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#input1 {
+  padding: 10px;
+  margin: 10px 0;
+  color: #3C3C3B;
+  background: transparent;
+  border: 2px solid #9C9B9B;
+  border-radius: 25px;
+  width: 94%;
+}
+
+#input2 {
+  padding: 10px;
+  margin: 10px 0;
+  color: #3C3C3B;
+}
+
+#input1::placeholder {
+  color: #3C3C3B;
+  font-weight: 600;
+}
+
+#input1:focus {
+  border-color: #f4f4f4;
+  outline: none;
+}
+
+.input-icon {
+  position: relative;
+  color: #3C3C3B;
+}
+
+.input-icon i {
+  position: absolute;
+  right: 20px;
+  top: 48%;
+  transform: translateY(-50%);
+}
+
+.remember-forgot {
+  color: #3C3C3B;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.remember-forgot a {
+  color: #00478F;
+}
+
+button {
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #00478F;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0058B0;
+}
